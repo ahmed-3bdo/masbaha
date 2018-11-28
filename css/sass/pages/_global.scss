@@ -1,0 +1,11 @@
+body{
+    background: url(../images/bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    direction: rtl;
+    font-family: $main-font;
+}
+* {
+    @include prefixer(user-select, none);
+}
